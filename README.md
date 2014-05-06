@@ -1,4 +1,4 @@
-# ActiveRecord::ForcibleIndex
+# ActiveRecord::ForcibleIndex [![Gem Version](https://badge.fury.io/rb/active-record-forcible-index.svg)](http://badge.fury.io/rb/active-record-forcible-index)
 
 ActiveRecord extension that implements USE INDEX and FORCE INDEX.
 
