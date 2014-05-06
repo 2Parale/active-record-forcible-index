@@ -4,6 +4,14 @@ ActiveRecord extension that implements USE INDEX and FORCE INDEX.
 
 ## How to use
 
+Add it to your ```Gemfile```.
+
+```
+  # ...
+  gem 'active-record-forcible-index'
+  # ...
+```
+
 Having the model bellow:
 
 ```
