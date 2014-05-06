@@ -5,7 +5,7 @@ require 'active_record_forcible_index'
 
 Gem::Specification.new do |spec|
   spec.name             = "active-record-forcible-index"
-  spec.version          = "0.0.1"
+  spec.version          = "0.0.2"
   spec.authors          = ["Catalin Ilinca", "Alexandru Emil Lupu"]
   spec.email            = ["c@talin.ro", "contact@alecslupu.ro"]
   spec.description      = %q{ActiveRecord extension that gives USE and FORCE index to any ActiveRecord Model.}
@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'activerecord', '~> 4.0'
-  spec.add_dependency 'rspec', '~> 2.0'
-  spec.add_dependency "rspec-given"
+  spec.add_development_dependency 'rspec', '~> 2.0'
+  spec.add_development_dependency "rspec-given"
   spec.add_dependency "bundler", "~> 1.3"
-  spec.add_dependency "rake"
+  spec.add_development_dependency "rake"
 end
