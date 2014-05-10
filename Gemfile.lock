@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    active-record-forcible-index (0.0.2)
+    active-record-forcible-index (0.0.3)
       activerecord (~> 4.0)
       bundler (~> 1.3)
 

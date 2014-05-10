@@ -9,7 +9,7 @@ end
 
 Gem::Specification.new do |spec|
   spec.name             = "active-record-forcible-index"
-  spec.version          = "0.0.2"
+  spec.version          = "0.0.3"
   spec.authors          = ["Catalin Ilinca", "Alexandru Emil Lupu"]
   spec.email            = ["c@talin.ro", "contact@alecslupu.ro"]
   spec.description      = %q{ActiveRecord extension that gives USE and FORCE index to any ActiveRecord Model.}
