@@ -1,3 +1,5 @@
+require 'active_record'
+
 module ActiveRecordForcibleIndex
   class << self
     def included(klass)

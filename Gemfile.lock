@@ -51,7 +51,6 @@ PLATFORMS
 
 DEPENDENCIES
   active-record-forcible-index!
-  activerecord (~> 4.0)
   rake
   rspec (~> 2.0)
   rspec-given
