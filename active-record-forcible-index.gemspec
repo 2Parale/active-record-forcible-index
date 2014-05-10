@@ -1,7 +1,7 @@
 # encoding: utf-8
+require 'active_record'
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'active_record'
 require 'active_record_forcible_index'
 
 Gem::Specification.new do |spec|
