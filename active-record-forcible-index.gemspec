@@ -1,15 +1,9 @@
-# encoding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-begin
-  require 'active_record_forcible_index'
-rescue
-  #
-end
 
 Gem::Specification.new do |spec|
   spec.name             = "active-record-forcible-index"
-  spec.version          = "0.0.3"
+  spec.version          = "0.0.4"
   spec.authors          = ["Catalin Ilinca", "Alexandru Emil Lupu"]
   spec.email            = ["c@talin.ro", "contact@alecslupu.ro"]
   spec.description      = %q{ActiveRecord extension that gives USE and FORCE index to any ActiveRecord Model.}
