@@ -1,3 +1,7 @@
+## v0.0.4
+
+* Hot fix Travis
+
 ## v0.0.3
 
 * Refactor and added support for Travis
