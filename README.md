@@ -16,7 +16,7 @@ Having the model bellow:
 
 ```
   class DummyModel < ActiveRecord::Base
-    include ActiveRecordForcibleIndex
+    require 'active_record_forcible_index'
   end
 ```
 

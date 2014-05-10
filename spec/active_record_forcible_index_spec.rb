@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 class DummyModel < ActiveRecord::Base
-  include ActiveRecordForcibleIndex
+  require 'active_record_forcible_index'
 end
 
 describe ActiveRecordForcibleIndex do
