@@ -8,7 +8,6 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    ZenTest (4.10.0)
     activemodel (4.1.0)
       activesupport (= 4.1.0)
       builder (~> 3.1)
@@ -23,8 +22,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    autotest (4.4.6)
-      ZenTest (>= 4.4.1)
     builder (3.2.2)
     diff-lcs (1.2.5)
     given_core (3.5.4)
@@ -53,9 +50,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ZenTest
   active-record-forcible-index!
-  autotest
   rake
-  rspec
+  rspec (~> 2.0)
   rspec-given
